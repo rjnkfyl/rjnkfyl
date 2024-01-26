@@ -1,0 +1,18 @@
+header{
+    background: #2c2c2c;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 0 20px;
+    background-image:url(1674269900_catherineasquithgallery-com-p-temno-serii-fon-bez-vsego-foto-83.jpg)
+}
+header>.logo{flex: 1;}
+header>div{flex: 5;}
+header>nav{flex:1}
+header>nav>ul{
+    display: flex;
+    justify-content: space-between;
+}
